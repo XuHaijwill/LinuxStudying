@@ -79,7 +79,7 @@ jsonq() {
             if (startwith(k, "[") && endwith(k, "]") == 1) { # [n]
                 idx = innerstr(k)
                 currentIdx = -1
-                # 找匹配对
+                # Find matching pairs
                 pairs = ""
                 json = trim(json)
                 if (startwith(json, "[") == 0) {
