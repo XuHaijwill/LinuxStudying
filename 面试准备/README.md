@@ -1,3 +1,23 @@
+## SHELL
+
+![image-20250109204821204](imgs\image-20250109204821204.png)
+
+![image-20250109204912430](imgs\image-20250109204912430.png)
+
+![image-20250109204941738](imgs\image-20250109204941738.png)
+
+![image-20250109205744270](imgs\image-20250109205744270.png)
+
+![image-20250109205103477](imgs\image-20250109205103477.png)
+
+![image-20250109205205855](imgs\image-20250109205205855.png)
+
+![image-20250109205410287](imgs\image-20250109205410287.png)
+
+# awk内建变量示例详解之NR、FNR、NF
+
+![image-20250109205643162](imgs\image-20250109205643162.png)
+
 # 前端（HTTP）
 
 1. 如何获取界面元素
@@ -109,3 +129,94 @@
    ![image-20250108230319943](imgs\image-20250108230319943.png)
 
 ![image-20250108230431774](D:\sources\git\github\LinuxStudying\面试准备\imgs\image-20250108230431774.png)
+
+## Docker
+
+https://www.bilibili.com/video/BV16M4y1H7aH/?spm_id_from=333.337.search-card.all.click&vd_source=c102ec68c51d3f8673e6ec1b0c5f195b
+
+https://www.bilibili.com/video/BV1wQ4y1Y7SE?spm_id_from=333.788.videopod.episodes&vd_source=c102ec68c51d3f8673e6ec1b0c5f195b&p=29
+
+https://docs.docker.com/reference/samples/wordpress/
+
+https://github.com/docker/awesome-compose/blob/master/nginx-aspnet-mysql/compose.yaml
+
+```
+docker-compose up
+docker compose up --build
+```
+
+![image-20250109200538745](imgs\image-20250109200538745.png)
+
+![image-20250109200649175](imgs\image-20250109200649175.png)
+
+![image-20250109200849389](imgs\image-20250109200849389.png)
+
+![image-20250109200953289](imgs\image-20250109200953289.png)
+
+![image-20250109201050529](imgs\image-20250109201050529.png)
+
+![image-20250109201507085](D:\sources\git\github\LinuxStudying\面试准备\imgs\image-20250109201507085.png)
+
+![image-20250109201628049](imgs\image-20250109201628049.png)
+
+![image-20250109201857670](imgs\image-20250109201857670.png)
+
+![image-20250109202110367](D:\sources\git\github\LinuxStudying\面试准备\imgs\image-20250109202110367.png)
+
+https://docker-practice.github.io/zh-cn/compose/
+
+![image-20250109202931881](imgs\image-20250109202931881.png)
+
+![image-20250109203008273](imgs\image-20250109203008273.png)
+
+![image-20250109203055251](imgs\image-20250109203055251.png)
+
+![image-20250109203132401](imgs\image-20250109203132401.png)
+
+![image-20250109203304112](imgs\image-20250109203304112.png)
+
+![image-20250109203402724](imgs\image-20250109203402724.png)
+
+```
+docker-compose up -d命令用于启动已经存在的服务容器，如果服务容器不存在则会自动创建。-d参数表示以守护进程的方式运行容器。
+docker-compose up --build命令用于重新构建服务容器。如果服务容器已经存在，该命令会先停止并移除现有的容器，然后重新构建并启动容器。如果服务容器不存在，则会直接构建并启动容器。
+总结来说，docker-compose up -d用于启动已经存在的服务容器，而docker-compose up --build用于重新构建并启动服务容器。
+```
+
+![image-20250109203811209](imgs\image-20250109203811209.png)
+
+![image-20250109203927361](imgs\image-20250109203927361.png)
+
+![image-20250109204019280](imgs\image-20250109204019280.png)
+
+![image-20250109204059814](imgs\image-20250109204059814.png)
+
+![image-20250109204141399](imgs\image-20250109204141399.png)
+
+![image-20250109204245165](imgs\image-20250109204245165.png)
+
+![image-20250109204323584](imgs\image-20250109204323584.png)
+
+![image-20250109204445584](imgs\image-20250109204445584.png)
+
+# 前端
+
+https://www.bilibili.com/video/BV1ef421z7pB?spm_id_from=333.788.videopod.episodes&vd_source=c102ec68c51d3f8673e6ec1b0c5f195b&p=127
+
+![image-20250109210322408](imgs\image-20250109210322408.png)
+
+![image-20250109210541568](imgs\image-20250109210541568.png)
+
+![image-20250109210351188](imgs\image-20250109210351188.png)
+
+![image-20250109210656918](imgs\image-20250109210656918.png)
+
+![image-20250109210031207](imgs\image-20250109210031207.png)
+
+![image-20250109210919515](imgs\image-20250109210919515.png)
+
+![image-20250109211009661](imgs\image-20250109211009661.png)
+
+# Python
+
+![image-20250109211133018](imgs\image-20250109211133018.png)
