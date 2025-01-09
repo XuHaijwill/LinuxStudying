@@ -220,3 +220,10 @@ https://www.bilibili.com/video/BV1ef421z7pB?spm_id_from=333.788.videopod.episode
 # Python
 
 ![image-20250109211133018](imgs\image-20250109211133018.png)
+
+```
+LRU是Least Recently Used的缩写，意思是最近最少使用，它是一种Cache替换算法。 Cache的容量有限，因此当Cache的容量用完后，而又有新的内容需要添加进来时， 就需要挑选并舍弃原有的部分内容，从而腾出空间来放新内容。LRU Cache 的替换原则就是将最近最少使用的内容替换掉。其实，LRU译成最久未使用会更形象， 因为该算法每次替换掉的就是一段时间内最久没有使用过的内容。 Python的缓存（lru_cache）是一种装饰在被执行的函数上，将其执行的结果缓存起来，当下次请求的时候，如果请求该函数的传参未变则直接返回缓存起来的结果而不再执行函数的一种缓存装饰器。
+
+```
+
+![image-20250109212337214](D:\sources\git\github\LinuxStudying\面试准备\imgs\image-20250109212337214.png)
