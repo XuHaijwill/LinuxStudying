@@ -227,3 +227,5 @@ LRU是Least Recently Used的缩写，意思是最近最少使用，它是一种C
 ```
 
 ![image-20250109212337214](D:\sources\git\github\LinuxStudying\面试准备\imgs\image-20250109212337214.png)
+
+[*Python*性能加速器：掌握functools.*lru_cache**装饰器*](https://blog.csdn.net/windowshht/article/details/140583480?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~OPENSEARCH~PaidSort-1-140583480-blog-131140907.235^v43^pc_blog_bottom_relevance_base2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~OPENSEARCH~PaidSort-1-140583480-blog-131140907.235^v43^pc_blog_bottom_relevance_base2&utm_relevant_index=1)
