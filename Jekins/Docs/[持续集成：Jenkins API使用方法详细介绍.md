@@ -101,23 +101,23 @@ Jenkins的很多页面都提供了远程访问API，你可以在当前页面URL�
 
 比如下面的页面：
 
-![img](Docs\imgs\2229336-20220220213632973-343239033.png)
+![img](D:\sources\git\github\LinuxStudying\Jekins\Docs\imgs\2229336-20220220213632973-343239033.png)
 
 获取第1个到第2个元素：`.../api/xml?tree=jobs[name]{1,3}`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213645006-1030804567.png)
+![img](D:\sources\git\github\LinuxStudying\Jekins\Docs\imgs\2229336-20220220213645006-1030804567.png)
 
 **5、组合**
 
 可以使用 `&` 来组合多个表达式，比如：`/api/xml?exclude=/*/action&xpath=//fullDisplayName`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213655917-999592538.png)
+![img](D:\sources\git\github\LinuxStudying\Jekins\Docs\imgs\2229336-20220220213655917-999592538.png)
 
 **6、wrapper方法整合多个结果**
 
 过滤后可能有多个结果，需要使用wrapper方法来组合，例如：`/api/xml?depth=2&xpath=//fullDisplayName&wrapper=jobname`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213704639-1511502646.png)
+![img](D:\sources\git\github\LinuxStudying\Jekins\Docs\imgs\2229336-20220220213704639-1511502646.png)
 
 ## JSON API
 
@@ -125,11 +125,11 @@ JSON API返回json样式的数据，在URL后添加`/api/json`。它也支持dep
 
 来看一下效果：`...3/api/json?pretty=true`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213719403-1812761104.png)
+![img](D:\sources\git\github\LinuxStudying\Jekins\Docs\imgs\2229336-20220220213719403-1812761104.png)
 
 JSON API也可以使用tree参数来过滤：`/api/json?pretty=true&tree=building,displayName,id,url,previousBuild[url]`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213726329-358025383.png)
+![img](D:\sources\git\github\LinuxStudying\Jekins\Docs\imgs\2229336-20220220213726329-358025383.png)
 
 ## 请求信息
 
@@ -158,13 +158,13 @@ API Token可以在用户配置中生成。
 
 还是以下面这个页面为例：
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213412541-1386934903.png)
+![img](D:\sources\git\github\LinuxStudying\Jekins\Docs\imgs\2229336-20220220213412541-1386934903.png)
 
 **1、解析xml结果**
 
 使用xpath过滤robot测试结果：`/api/xml?xpath=//action[@_class='hudson.plugins.robot.RobotBuildAction']`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213737905-1786368239.png)
+![img](D:\sources\git\github\LinuxStudying\Jekins\Docs\imgs\2229336-20220220213737905-1786368239.png)
 
 shell脚本中，可以对返回的信息进行进一步处理，比如，读取totalCount：
 
@@ -333,7 +333,7 @@ res = requests.post(url, auth=(username, api_token), params=jenkins_params, veri
 
 可以在URL后添加 `/api/python` 获取json格式数据：`/api/python?pretty=true&tree=building,displayName,id,url,previousBuild[url]`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213805510-300158315.png)
+![img](D:\sources\git\github\LinuxStudying\Jekins\Docs\imgs\2229336-20220220213805510-300158315.png)
 
 [JenkinsAPI](https://pypi.python.org/pypi/jenkinsapi), [Python-Jenkins](https://pypi.python.org/pypi/python-jenkins/), [api4jenkins](https://pypi.org/project/api4jenkins/), [aiojenkins](https://pypi.org/project/aiojenkins/)等Python库封装了许多jenkins REST API，下面以JenkinsAPI库为例。
 
