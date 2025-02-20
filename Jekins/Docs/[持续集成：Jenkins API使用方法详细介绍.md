@@ -43,7 +43,7 @@ Jenkins的很多页面都提供了远程访问API，你可以在当前页面URL�
 
 以下面这个页面为例：
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213412541-1386934903.png)
+![img](Docs\imgs\2229336-20220220213412541-1386934903.png)
 
 在URL后面添加 `api` 返回如下页面：
 
@@ -53,7 +53,7 @@ Jenkins的很多页面都提供了远程访问API，你可以在当前页面URL�
 
 在URL后添加`/api/xml`，效果如下：
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213526883-161066572.png)
+![img](Docs\imgs\2229336-20220220213526883-161066572.png)
 
 下面介绍过滤xml信息的方法。
 
@@ -65,7 +65,7 @@ Jenkins的很多页面都提供了远程访问API，你可以在当前页面URL�
 
 读取用例总数totalCount：`/api/xml?xpath=/*/action/totalCount` 或者 `/api/xml?xpath=//totalCount`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213545115-685111780.png)
+![img](Docs\imgs\2229336-20220220213545115-685111780.png)
 
 还有更多的xpath语法可以使用，比如：
 
@@ -78,13 +78,13 @@ Jenkins的很多页面都提供了远程访问API，你可以在当前页面URL�
 
 排除action节点：`/api/xml?exclude=/*/action`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213556841-1551692466.png)
+![img](Docs\imgs\2229336-20220220213556841-1551692466.png)
 
 **3、depth指定深度**
 
 指定深度为1：`/api/xml?depth=1`
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213607505-1270318168.png)
+![img](Docs\imgs\2229336-20220220213607505-1270318168.png)
 
 **4、tree参数**
 
@@ -101,7 +101,7 @@ Jenkins的很多页面都提供了远程访问API，你可以在当前页面URL�
 
 比如下面的页面：
 
-![img](https://img2022.cnblogs.com/blog/2229336/202202/2229336-20220220213632973-343239033.png)
+![img](Docs\imgs\2229336-20220220213632973-343239033.png)
 
 获取第1个到第2个元素：`.../api/xml?tree=jobs[name]{1,3}`
 
